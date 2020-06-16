@@ -1,0 +1,12 @@
+## handy list of azure cli commands ##
+
+#
+# get list of supported vm sizes and output info to table //
+az vm list-sizes --output table --location "australia southeast"
+
+#
+# create a new resource group and deployment //
+az group create --name testDeploy --location local
+az group deployment create --resource-group testDeploy --template-file ./azuredeploy.json --parameters ./azuredeploy.parameters.json
+
+
