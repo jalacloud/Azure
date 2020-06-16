@@ -3,13 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "azurejase"
+      "value": "GEN-UNIQUE"
     },
     "adminPassword": {
-      "value": "Mine$-fallen-Chime33"
+      "value": "GEN-UNIQUE"
     },
     "dnsLabelPrefix": {
-      "value": "myskylabtestvm"
+      "value": "GEN-UNIQUE-DNS"
     }
   }
 }
